@@ -1,0 +1,16 @@
+#+TITLE: README
+#+AUTHOR: syskay
+#+EMAIL: syskay@gmail.com
+* dwm
+My fork of dwm - dynamic window manager
+
+* Keybindings
+MODKEY set to Left Alt
+
+| Keybinding         | Action                               |
+|--------------------+--------------------------------------|
+| MODKEY + ENTER     | opens termina (currectly st)         |
+| MODKEY + w         | opens run launcher (currently dmenu) |
+| MODKEY + q         | closes window with focus             |
+| MODKEY + SHIFT + q | quits dwm                            |
+| MODKEY + SHIFT + e | restarts dwm                         |
