@@ -5,10 +5,11 @@ static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Hack:pixelsize=12:antialias=true:autohint=true",
+static const char *fonts[]          = { "FontAwesome:pixelsize=14:antialias=true:autohint=true",
+					"Hack Nerd Font:pixelsize=14:antialias=true:autohint=true",
 	 				"JoyPixels:pixelsize=8:antialias=true:autohint=true",
 };
-static const char dmenufont[]       = "monospace:size=10";
+static const char dmenufont[]       = "Hack Nerd Font:pixelsize=14:antialias=true:autohint=true";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
