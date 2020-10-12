@@ -7,14 +7,31 @@ My fork of dwm - dynamic window manager
 * Keybindings
 MODKEY set to Left Alt
 
-| Keybinding         | Action                               |
-|--------------------+--------------------------------------|
-| MODKEY + ENTER     | opens termina (currectly st)         |
-| MODKEY + w         | opens run launcher (currently dmenu) |
-| MODKEY + q         | closes window with focus             |
-| MODKEY + SHIFT + q | quits dwm                            |
-| MODKEY + SHIFT + e | restarts dwm                         |
-| MODKEY + SHIFT + f | window full screen switching	    |
+| Keybinding                 | Action                               |
+|----------------------------+--------------------------------------|
+| MODKEY + ENTER             | opens termina (currectly st)         |
+| MODKEY + w                 | opens run launcher (currently dmenu) |
+| MODKEY + q                 | closes window with focus             |
+| MODKEY + SHIFT + q         | quits dwm                            |
+| MODKEY + SHIFT + e         | restarts dwm                         |
+| MODKEY + SHIFT + f         | window full screen switching         |
+| MODKEY + WIN + h           | increase gaps                        |
+| MODKEY + WIN + l           | decrease gaps                        |
+| MODKEY + WIN + SHIFT + h   | increase outer gaps                  |
+| MODKEY + WIN + SHIFT + l   | decreae outer gaps                   |
+| MODKEY + WIN + CONTROL + h | increase inner gaps                  |
+| MODKEY + WIN + CONTROL + l | decrease inner gaps                  |
+| MODKEY + WIN + 0           | toggle gaps                          |
+| MODKEY + WIN + SHIFT + 0   | default gaps                         |
+| MODKEY + WIN + j           | increase inner horizontal gaps       |
+| MODKEY + WIN + k           | decrease inner horizontal gaps       |
+| MODKEY + CONTROL + j       | increase inner vertical gaps         |
+| MODKEY + CONTROL + k       | decrease inner vertical gaps         |
+| MODKEY + WIN + CONTROL + j | increase outer horizontal gaps       |
+| MODKEY + WIN + CONTROL + k | decrease outer horizonatl gaps       |
+| MODKEY + WIN + SHIFT + j   | increase outer vertical gaps         |
+| MODKEY + WIN + SHIFT + k   | decrease outer veritcal gaps         |
 
 * Patches
 - actuallfullscreen
+- vanitygaps
