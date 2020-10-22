@@ -15,18 +15,19 @@ static const char *fonts[]          = { "FontAwesome:pixelsize=14:antialias=true
 	 				"JoyPixels:pixelsize=8:antialias=true:autohint=true",
 };
 static const char dmenufont[]       = "Hack Nerd Font:pixelsize=14:antialias=true:autohint=true";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char norm_fg[]         = "#c3c4c9";
+static const char norm_bg[]         = "#181f0c";
+static const char norm_border[]     = "#88898c";
+static const char sel_fg []         = "#c3c4c9";
+static const char sel_bg[]          = "#3c5583";
+static const char sel_border[]	    = "#c3c4c9";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeNorm] = { norm_fg, norm_bg, norm_border},
+	[SchemeSel]  = { sel_fg, sel_bg, sel_border},
 };
 /* tagging */
-static const char *tags[] = { "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", ""};
 //static const char *tagsalt[] = { "1", "2", "3", "4", "5" };
 
 
@@ -65,7 +66,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", norm_bg, "-nf", norm_fg, "-sb", sel_bg, "-sf", sel_fg, NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char scratchpadname[] = "scratchpad";
 static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "100x31+500+0", NULL};
