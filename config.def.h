@@ -15,12 +15,12 @@ static const char *fonts[]          = { "FontAwesome:pixelsize=14:antialias=true
 	 				"JoyPixels:pixelsize=8:antialias=true:autohint=true",
 };
 static const char dmenufont[]       = "Hack Nerd Font:pixelsize=14:antialias=true:autohint=true";
-static const char norm_fg[]         = "#c3c4c9";
-static const char norm_bg[]         = "#181f0c";
-static const char norm_border[]     = "#88898c";
-static const char sel_fg []         = "#c3c4c9";
-static const char sel_bg[]          = "#3c5583";
-static const char sel_border[]	    = "#c3c4c9";
+static const char norm_fg[]         = "#ded2db";
+static const char norm_bg[]         = "#090605";
+static const char norm_border[]     = "#9b9399";
+static const char sel_fg []         = "#ded2db";
+static const char sel_bg[]          = "#746D8C";
+static const char sel_border[]	    = "#ded2db";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { norm_fg, norm_bg, norm_border},
