@@ -37,3 +37,4 @@ MODKEY set to Left Alt
 - actuallfullscreen
 - vanitygaps
 - scratchpad
+- xrdb
