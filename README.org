@@ -31,7 +31,7 @@ MODKEY set to Left Alt
 | MODKEY + WIN + CONTROL + k | decrease outer horizonatl gaps       |
 | MODKEY + WIN + SHIFT + j   | increase outer vertical gaps         |
 | MODKEY + WIN + SHIFT + k   | decrease outer veritcal gaps         |
-| MODKEY + SHIFT + ENTER     | toggle scratchpad (currently st)	    |
+| MODKEY + CONTROL + ENTER   | toggle scratchpad (currently st)	    |
 
 * Patches
 - actuallfullscreen
