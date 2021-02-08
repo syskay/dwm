@@ -38,3 +38,4 @@ MODKEY set to Left Alt
 - vanitygaps
 - scratchpad
 - xrdb
+- deck-double
