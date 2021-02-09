@@ -39,3 +39,4 @@ MODKEY set to Left Alt
 - scratchpad
 - xrdb
 - deck-double
+- centermaster

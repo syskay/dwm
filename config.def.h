@@ -54,6 +54,8 @@ static const Layout layouts[] = {
 	{ "><>",      NULL },    /* no layout function means floating behavior */
 	{ "[M]",      monocle },
 	{ "DD",       doubledeck },
+	{ "|M|",      centeredmaster },
+	{ ">M<",      centeredfloatingmaster },
 };
 
 /* key definitions */
@@ -115,6 +117,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_y,      setlayout,      {.v = &layouts[2]} }, /* monocle */
 	{ MODKEY|ShiftMask,             XK_y,      setlayout,      {.v = &layouts[3]} }, /* spiral */
         { MODKEY,                       XK_u,      setlayout,      {.v = &layouts[4]} }, /* dwindle */
+	{ MODKEY|ShiftMask,		XK_u,      setlayout,      {.v = &layouts[5]} }, /* center master */
+	{ MODKEY|ShiftMask,             XK_i,      setlayout,      {.v = &layouts[6]} }, /* center floating master */
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY|ShiftMask,             XK_f,      togglefullscr,  {0} },
