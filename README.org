@@ -40,3 +40,4 @@ MODKEY set to Left Alt
 - xrdb
 - deck-double
 - centermaster
+- swallow
