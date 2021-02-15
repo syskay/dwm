@@ -115,13 +115,12 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,                       XK_q,      killclient,     {0} },
-	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
-	{ MODKEY|ShiftMask,             XK_t,      setlayout,      {.v = &layouts[1]} },
-	{ MODKEY,                       XK_y,      setlayout,      {.v = &layouts[2]} }, /* monocle */
-	{ MODKEY|ShiftMask,             XK_y,      setlayout,      {.v = &layouts[3]} }, /* spiral */
-        { MODKEY,                       XK_u,      setlayout,      {.v = &layouts[4]} }, /* dwindle */
-	{ MODKEY|ShiftMask,		XK_u,      setlayout,      {.v = &layouts[5]} }, /* center master */
-	{ MODKEY|ShiftMask,             XK_i,      setlayout,      {.v = &layouts[6]} }, /* center floating master */
+	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} }, /* "[]=" default */
+	{ MODKEY|ShiftMask,             XK_t,      setlayout,      {.v = &layouts[1]} }, /* "><>" floating */
+	{ MODKEY,                       XK_y,      setlayout,      {.v = &layouts[2]} }, /* "[ ]" monocle */
+	{ MODKEY|ShiftMask,             XK_y,      setlayout,      {.v = &layouts[3]} }, /* "DD" doubledeck */
+        { MODKEY,                       XK_u,      setlayout,      {.v = &layouts[4]} }, /* "|M| center master */
+	{ MODKEY|ShiftMask,		XK_u,      setlayout,      {.v = &layouts[5]} }, /* ">M>" center floating master */
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY|ShiftMask,             XK_f,      togglefullscr,  {0} },
