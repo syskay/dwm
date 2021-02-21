@@ -5,7 +5,7 @@
 My fork of dwm - dynamic window manager
 
 * Keybindings
-MODKEY set to Left Alt
+MODKEY set to Win Key
 
 | Keybinding                 | Action                               |
 |----------------------------+--------------------------------------|
