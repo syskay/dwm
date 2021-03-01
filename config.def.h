@@ -13,7 +13,7 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "FontAwesome:pixelsize=14:antialias=true:autohint=true",
 					"Hack Nerd Font:pixelsize=14:antialias=true:autohint=true",
-	 				"JoyPixels:pixelsize=8:antialias=true:autohint=true",
+	 				"JoyPixels:pixelsize=14:antialias=true:autohint=true",
 };
 static const char dmenufont[]       = "Hack Nerd Font:pixelsize=14:antialias=true:autohint=true";
 
@@ -30,6 +30,7 @@ static char *colors[][3] = {
 
 };
 /* tagging */
+//static const char *tags[] = { "", "", "", "", ""};
 static const char *tags[] = { "", "", "", "", ""};
 //static const char *tagsalt[] = { "1", "2", "3", "4", "5" };
 
