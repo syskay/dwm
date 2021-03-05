@@ -41,3 +41,4 @@ MODKEY set to Left Alt
 - deck-double
 - centermaster
 - swallow
+- statuscmd-signal
